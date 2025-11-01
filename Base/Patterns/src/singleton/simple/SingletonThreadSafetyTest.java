@@ -1,12 +1,15 @@
 package singleton.simple;
 
-import java.util.concurrent.*;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 public class SingletonThreadSafetyTest {
     public static void main(String[] args) throws InterruptedException {
         int threadCount = 100;
         ExecutorService executor = Executors.newFixedThreadPool(threadCount);
-        var instances = new java.util.concurrent.ConcurrentHashMap<Simple, Boolean>();
+        var instances = new ConcurrentHashMap<Simple, Boolean>();
 
         // Запускаем 100 потоков, каждый вызывает getInstance()
         for (int i = 0; i < threadCount; i++) {

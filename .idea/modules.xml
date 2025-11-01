@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Base/Base.iml" filepath="$PROJECT_DIR$/Base/Base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaLibrary.iml" filepath="$PROJECT_DIR$/.idea/JavaLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Base/Object/Object.iml" filepath="$PROJECT_DIR$/Base/Object/Object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Base/Patterns/Patterns.iml" filepath="$PROJECT_DIR$/Base/Patterns/Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Base/StreamApi/StreamApi.iml" filepath="$PROJECT_DIR$/Base/StreamApi/StreamApi.iml" />
+    </modules>
+  </component>
+</project>
